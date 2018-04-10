@@ -38,12 +38,12 @@ public class Maya {
 
         if (vnum != null) {
             try {
-                for (Integer num : vnum)
-                    set.add(num);
-                //set.addAll(Arrays.asList(vnum));
+                /*for (Integer num : vnum)
+                    set.add(num);*/
+                set.addAll(Arrays.asList(vnum));
 
             } catch (Exception e) {
-                System.out.printf("Error. " + e.getMessage());
+                System.out.println("Error. " + e.getMessage());
             }
 
             return set.toArray(new Integer[set.size()]);
