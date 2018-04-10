@@ -40,6 +40,7 @@ public class Maya {
             try {
                 for (Integer num : vnum)
                     set.add(num);
+                //set.addAll(Arrays.asList(vnum));
 
             } catch (Exception e) {
                 System.out.printf("Error. " + e.getMessage());
